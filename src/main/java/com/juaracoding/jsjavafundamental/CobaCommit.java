@@ -10,6 +10,8 @@ Version 1.0
 */
 
 
+import java.util.Scanner;
+
 public class CobaCommit {
     public static void main(String[] args) {
 //        int intX = 2 ;
@@ -47,5 +49,22 @@ public class CobaCommit {
 //        String nama = "JavaProgrammer";
 //        System.out.println(nama.substring(6,9));
 
-        }
+//            int A = 2;
+//            if(2 == -2){
+//                System.out.println("sama");
+//            } else {
+//                System.out.println("beda");
+//            }
+//        double hasil = 75/8.0;
+//        System.out.println(hasil);
+
+        int intPanjang = 0;
+        System.out.println("Sebelum diinput " + intPanjang);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukan nilai panjang : ");
+        intPanjang = sc.nextInt();
+        System.out.println("Hasil nilai panjang adalah " + intPanjang);
+
+
+    }
     }
