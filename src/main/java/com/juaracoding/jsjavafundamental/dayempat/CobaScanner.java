@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class CobaScanner {
     public static void main(String[] args) {
 
-//        == Scanner -> Membuat inputan pada consloe ==
+//      == Scanner -> Membuat inputan pada consloe ==
 
         int intPanjang;
 //      System.out.println("Sebelum diinput " + intPanjang);

@@ -11,6 +11,12 @@ Version 1.0
 
 public class CobaPercabangan {
     public static void main(String[] args) {
-        System.out.println();
+
+        String nama = "Jefri";
+        if(nama.equals("jefri")){
+            System.out.println("nama ini sama");
+        }else {
+            System.out.println("nama ini beda");
+        }
     }
 }
