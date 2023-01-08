@@ -9,8 +9,43 @@ Createrd On 1/5/2023 11:22
 Version 1.0
 */
 
+
 public class CobaCommit {
     public static void main(String[] args) {
-        System.out.println("COBA COMMIT");
+//        int intX = 2 ;
+//        if(intX=2){
+//            System.out.println("benar");
+//        } else {
+//            System.out.println("Salah");
+//        }
+//        System.out.println(Integer.toBinaryString(10));
+
+//    == concat (Gabungkan 2 String) ==
+//        String nama1 = "jefri ";
+//        String nama2 = "saputra";
+//        System.out.println(nama1.concat(nama2));
+
+//    == lenght -> Jumlah Karaker ==
+//        String namaKu = "Jefri Saputra";
+//        System.out.println(namaKu.length());
+
+//    == charAt -> mengambil suatu karakter
+//        String namaKu = "Jefri Saputra";
+//        char huruf = namaKu.charAt(3);
+//        System.out.println(huruf);
+
+//    == equals -> bandigkan 2 / lebih string
+        /*
+            Jika menggunakan equals = string harus sama persis (Jefri vs Jefri)
+            Jika mengguanakan equalsIgnoreCase = String besar kecil masih oke (Jefri vs jefri)
+         */
+//          String namaKu = "Jefri";
+//          String namaTeman ="Jefri";
+//          System.out.println(namaKu.equals(namaTeman));
+
+//     == subtring -> extraksi hurus berdasrkan range index
+//        String nama = "JavaProgrammer";
+//        System.out.println(nama.substring(6,9));
+
+        }
     }
-}
