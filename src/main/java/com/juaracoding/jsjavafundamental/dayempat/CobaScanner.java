@@ -16,12 +16,12 @@ public class CobaScanner {
 
 //      == Scanner -> Membuat inputan pada consloe ==
 
-        int intPanjang;
-//      System.out.println("Sebelum diinput " + intPanjang);
+        int intPanjang = 10;
+        System.out.println("Sebelum diinput " + intPanjang);
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukan nilai panjang : ");
         intPanjang = sc.nextInt();
-        System.out.println("Hasil nilai panjang adalah " + intPanjang);
+        System.out.println("Hasil input nilai panjang adalah " + intPanjang);
 
     }
 }
