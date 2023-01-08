@@ -58,12 +58,13 @@ public class CobaCommit {
 //        double hasil = 75/8.0;
 //        System.out.println(hasil);
 
-        int intPanjang = 0;
-        System.out.println("Sebelum diinput " + intPanjang);
+        String strBootcamp1 ="JuaraCoding";
+        String strBootcamp2 = "juaraCoding";
+        System.out.println("Sebelum diinput " + strBootcamp1 + strBootcamp2);
         Scanner sc = new Scanner(System.in);
-        System.out.print("Masukan nilai panjang : ");
-        intPanjang = sc.nextInt();
-        System.out.println("Hasil nilai panjang adalah " + intPanjang);
+        System.out.print("Masukan nama : ");
+        strBootcamp1 = sc.nextLine();
+        System.out.println("Hasil Perbedaannya adalah " + strBootcamp1.equals(strBootcamp2) );
 
 
     }
