@@ -10,10 +10,12 @@ Version 1.0
 */
 
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class CobaCommit {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        int intX = 2 ;
 //        if(intX=2){
 //            System.out.println("benar");
@@ -27,7 +29,7 @@ public class CobaCommit {
 //        String nama2 = "saputra";
 //        System.out.println(nama1.concat(nama2));
 
-//    == lenght -> Jumlah Karaker ==
+//    == lenght ->Hitung Jumlah Karakter ==
 //        String namaKu = "Jefri Saputra";
 //        System.out.println(namaKu.length());
 
@@ -48,7 +50,6 @@ public class CobaCommit {
 //     == subtring -> extraksi hurus berdasrkan range index
 //        String nama = "JavaProgrammer";
 //        System.out.println(nama.substring(6,9));
-
 //            int A = 2;
 //            if(2 == -2){
 //                System.out.println("sama");
@@ -58,13 +59,23 @@ public class CobaCommit {
 //        double hasil = 75/8.0;
 //        System.out.println(hasil);
 
-        String strBootcamp1 ="JuaraCoding";
-        String strBootcamp2 = "juaraCoding";
-        System.out.println("Sebelum diinput " + strBootcamp1 + strBootcamp2);
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Masukan nama : ");
-        strBootcamp1 = sc.nextLine();
-        System.out.println("Hasil Perbedaannya adalah " + strBootcamp1.equals(strBootcamp2) );
+//        String strBootcamp1 ="JuaraCoding";
+//        String strBootcamp2 = "juaraCoding";
+//        System.out.println("Sebelum diinput " + strBootcamp1 + strBootcamp2);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Masukan nama : ");
+//        strBootcamp1 = sc.nextLine();
+//        System.out.println("Hasil Perbedaannya adalah " + strBootcamp1.equals(strBootcamp2) );
+
+//        String strProfesi="Bolot Sulaiman";
+//        String huruf = strProfesi.substring(10, 14);
+//        System.out.print(huruf);
+
+//        InputStreamReader r= new InputStreamReader(System.in);
+//        BufferedReader br = new BufferedReader(r);
+//        System.out.print("Masukan Nama Kamu : ");
+//        String name = br.readLine();
+//        System.out.println("Haloo " + name);
 
 
     }
