@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental;
+package com.juaracoding.jsjavafundamental.master;
 
 
 public class HelloTest {
