@@ -6,5 +6,7 @@ public class HelloTest {
     public static void main(String[] args) {
 //sout -> tab : auto code
         System.out.println("Hello Java");
+
+
     }
 }
