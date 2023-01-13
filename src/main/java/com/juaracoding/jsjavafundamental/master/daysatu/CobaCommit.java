@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.master;
+package com.juaracoding.jsjavafundamental.master.daysatu;
 
 /*
 Created By IntelliJ IDEA 2022.1.3 (Community Edition)

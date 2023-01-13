@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.master;
+package com.juaracoding.jsjavafundamental.master.daysatu;
 
 
 public class HelloTest {
