@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.dayenam;
+package com.juaracoding.jsjavafundamental.master.dayenam;
 
 /*
 Created By IntelliJ IDEA 2022.1.3 (Community Edition)

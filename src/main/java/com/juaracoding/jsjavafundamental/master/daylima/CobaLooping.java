@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.daylima;
+package com.juaracoding.jsjavafundamental.master.daylima;
 
 /*
 Created By IntelliJ IDEA 2022.1.3 (Community Edition)
@@ -12,9 +12,12 @@ Version 1.0
 public class CobaLooping {
     public static void main(String[] args) {
 
-        for( int a = 0; a <= 10; a++){
+        for (int a = 0; a <= 10; a++) {
+            for (int b = 0; b < a; b++) {
+                System.out.println("coba " + b);
+                }
+            }
 
-            System.out.println("Angka ini : " + a);
         }
+
     }
-}

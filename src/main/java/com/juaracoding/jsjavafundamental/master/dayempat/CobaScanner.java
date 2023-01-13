@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.dayempat;
+package com.juaracoding.jsjavafundamental.master.dayempat;
 
 /*
 Created By IntelliJ IDEA 2022.1.3 (Community Edition)
