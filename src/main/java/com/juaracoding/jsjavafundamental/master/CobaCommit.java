@@ -1,4 +1,4 @@
-package com.juaracoding.jsjavafundamental.cobacoba;
+package com.juaracoding.jsjavafundamental.master;
 
 /*
 Created By IntelliJ IDEA 2022.1.3 (Community Edition)
