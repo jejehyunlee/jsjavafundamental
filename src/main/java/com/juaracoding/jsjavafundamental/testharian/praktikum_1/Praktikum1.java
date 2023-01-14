@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Praktikum1 {
     public static void main(String[] args) {
 
-            /* Soal
+        /* Soal
      1. (Input)  : Jquery 1995@v1.0
         (Output} : 529
 
