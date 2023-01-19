@@ -10,6 +10,7 @@ Created On 1/18/2023 11:26
 Version 1.0
 */
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Praktikum2 {
@@ -21,22 +22,22 @@ public class Praktikum2 {
     public static void main(String[] args) {
         System.out.println("masukan angka sepuasnya :");
         int input = 0;
-        double jumlah = 0.0;
+        double jumlah = 0;
         int hasil = 0;
+        boolean ulang = true;
         Scanner sn = new Scanner(System.in);
         try {
-                for (int i = 0; i >= 0; i++)
-                {
+            do  {
                     input = sn.nextInt();
                     int[] bagi = {input};
                     hasil += bagi.length;
                     jumlah += input;
-
                 }
+                while(ulang);
             }
         catch (Exception exception)
             {
-                System.out.println("Jumlah Rata rata inputan adalah " + jumlah/hasil);
+                System.out.println("Rata-rata inputan adalah " + jumlah/hasil);
                 System.exit(0);
             }
     }
