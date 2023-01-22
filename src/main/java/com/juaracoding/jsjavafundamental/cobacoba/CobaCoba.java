@@ -12,7 +12,6 @@ Version 1.0
 
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class CobaCoba {
 
@@ -20,58 +19,70 @@ public class CobaCoba {
 
     Mohon koreksi nya Pak Paul
 
-    Saya stuck dengan logic random
-
-    thanks
-
      */
 
 
+    public static final String red = "\u001b[31m";
 
-    public static final String RED = "\u001b[31m";
 
-    public static final String CYAN = "\u001b[36m";
+    public static final String cyan = "\u001b[36m";
+
 
     public static void main(String[] args) {
 
-        Random anuin = new Random();
-        Scanner sc= new Scanner(System.in);
-        System.out.print("Masukan jumlah :   ");
-        int input = sc.nextInt();
+        Random generate = new Random();
+        int acak = generate.nextInt(12, 26);
+        String strGede = "";
+        String result = "";
 
+        //Looping antara min : 12 | max : 26 karakter
+        for (int i = 0; i < acak; i++)
+        {
+            //Merubah string awal menjadi upperCase
+            if (i==0)
+            {
+                //Range 97 s/d 122 adalah kode ASCII untuk abjad kapital
+                int konson = generate.nextInt(97, 122);
+                char konsonA = (char) konson;
+                strGede += konsonA;
+                result = strGede.toUpperCase();
+                System.out.print(red+result+" ");
+            }
+            //Panjang karakter berpola max 7
+            else if (i < 7)
+            {
+                    int konsonB = generate.nextInt(97, 122);
+                    char konsonC = (char) konsonB;
 
-        for (int i = 1; i <=7; i++) {
+                    //Define huruf vokal
+                    String strVokal = "aiueo";
+                    char charB = strVokal.charAt(generate.nextInt(strVokal.length()));
 
-            int konson = anuin.nextInt(97, 122);
-            char konsonA = (char) konson;
-
-            String strVokal = "AIUEO";
-            char charB = strVokal.charAt(anuin.nextInt(strVokal.length()));
-
-            if (i%2==0){
-                System.out.print(RED+konsonA+" ");
-            } else {
-                System.out.print(RED+charB+" ");
+                //metode ganjil genap
+                if (i % 2 == 0)
+                    {
+                        System.out.print(red + konsonC + " ");
+                    } else
+                    {
+                        System.out.print(red + charB + " ");
+                    }
+            }
+            else
+            {
+                //setelah karakter ke-7 random sesuai max random
+                int konson1 = generate.nextInt(97, 122);
+                char konsonB = (char) konson1;
+                generate.nextInt(97, 122);
+                System.out.print(cyan + konsonB + " ");
             }
         }
-
-
-        for (int j=0; j<input; j++){
-
-            int konson1 = anuin.nextInt(97, 122);
-            char konsonB = (char) konson1;
-
-            if (anuin.nextInt(97, 122) != 0){
-                System.out.print(CYAN+konsonB+" ");
-
-            }
-        }
-
-
-
-    }
-
+     }
 }
+
+
+
+
+
 
 
 
