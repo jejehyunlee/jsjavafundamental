@@ -32,7 +32,7 @@ public class Praktikum3 {
         for (int i = 0; i < acak; i++) {
             //Merubah string awal menjadi huruf besar
             if (i==0) {
-                //Range 97 s/d 122 adalah kode ASCII untuk abjad kapital
+                //Range 97 s/d 122 adalah kode ASCII untuk abjad kecil
                 int konson = generate.nextInt(97, 122);
                 char konsonA = (char) konson;
                 strGede += konsonA;
