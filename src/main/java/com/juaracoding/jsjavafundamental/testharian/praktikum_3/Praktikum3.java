@@ -30,7 +30,7 @@ public class Praktikum3 {
 
         //Looping antara min : 12 | max : 26 karakter
         for (int i = 0; i < acak; i++) {
-            //Merubah string awal menjadi upperCase
+            //Merubah string awal menjadi huruf besar
             if (i==0) {
                 //Range 97 s/d 122 adalah kode ASCII untuk abjad kapital
                 int konson = generate.nextInt(97, 122);
