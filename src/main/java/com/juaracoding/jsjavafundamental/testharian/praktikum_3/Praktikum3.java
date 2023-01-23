@@ -15,7 +15,7 @@ import java.util.Random;
 public class Praktikum3 {
 
         /*
-	        Soal Nomor 1 Praktikum 3 Java Fundamental
+	        Soal Nomor 2 Praktikum 3 Java Fundamental
         */
 
     public static final String red = "\u001b[31m";
@@ -25,8 +25,8 @@ public class Praktikum3 {
 
         Random generate = new Random();
         int acak = generate.nextInt(12, 26);
-        String strGede = "";
-        String result = "";
+        String strGede="";
+        String result;
 
         //Looping antara min : 12 | max : 26 karakter
         for (int i = 0; i < acak; i++) {
@@ -38,6 +38,7 @@ public class Praktikum3 {
                 strGede += konsonA;
                 result = strGede.toUpperCase();
                 System.out.print(red+result+" ");
+//                System.out.print(i);
             }
             //Panjang karakter berpola max 7
             else if (i < 7) {
@@ -62,6 +63,8 @@ public class Praktikum3 {
                 generate.nextInt(97, 123);
                 System.out.print(cyan + konsonB + " ");
             }
+
+//            System.out.print(i);
         }
     }
 }
