@@ -33,7 +33,7 @@ public class Praktikum3 {
             //Merubah string awal menjadi huruf besar
             if (i==0) {
                 //Range 97 s/d 122 adalah kode ASCII untuk abjad kecil
-                int konson = generate.nextInt(97, 122);
+                int konson = generate.nextInt(97, 123);
                 char konsonA = (char) konson;
                 strGede += konsonA;
                 result = strGede.toUpperCase();
@@ -41,7 +41,7 @@ public class Praktikum3 {
             }
             //Panjang karakter berpola max 7
             else if (i < 7) {
-                int konsonB = generate.nextInt(97, 122);
+                int konsonB = generate.nextInt(97, 123);
                 char konsonC = (char) konsonB;
 
                 //Define huruf vokal
@@ -57,9 +57,9 @@ public class Praktikum3 {
             }
             else {
                 //setelah karakter ke-7 random sesuai max random
-                int konson1 = generate.nextInt(97, 122);
+                int konson1 = generate.nextInt(97, 123);
                 char konsonB = (char) konson1;
-                generate.nextInt(97, 122);
+                generate.nextInt(97, 123);
                 System.out.print(cyan + konsonB + " ");
             }
         }
