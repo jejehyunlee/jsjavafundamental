@@ -32,28 +32,29 @@ public class Praktikum3 {
         for (int i = 0; i < acak; i++) {
             //Merubah string awal menjadi huruf kapital
             if (i==0) {
-                //Range 97 s/d 122 adalah kode ASCII untuk abjad kecil
-                int konson = generate.nextInt(97, 123);
-                char konsonA = (char) konson;
-                strGede += konsonA;
+                String strKonson = "bcdfghjklmnpqrstvwxyz";
+                char konsonD = strKonson.charAt(generate.nextInt(strKonson.length()));
+                strGede += konsonD;
                 result = strGede.toUpperCase();
                 System.out.print(red+result+" ");
-//                System.out.print(i);
+//              System.out.print(i);
             }
             //Panjang karakter berpola max 7
             else if (i < 7) {
-                int konsonB = generate.nextInt(97, 123);
-                char konsonC = (char) konsonB;
+
+                //Define huruf konsonan
+                String strKonson = "bcdfghjklmnpqrstvwxyz";
+                char konsonC = strKonson.charAt(generate.nextInt(strKonson.length()));
 
                 //Define huruf vokal
                 String strVokal = "aiueo";
-                char charB = strVokal.charAt(generate.nextInt(strVokal.length()));
+                char vokalA = strVokal.charAt(generate.nextInt(strVokal.length()));
 
                 //metode ganjil genap
                 if (i % 2 == 0) {
                     System.out.print(red + konsonC + " ");
                 } else {
-                    System.out.print(red + charB + " ");
+                    System.out.print(red + vokalA + " ");
                 }
             }
             else {
