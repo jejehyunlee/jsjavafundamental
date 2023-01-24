@@ -36,8 +36,8 @@ public class Praktikum3 {
                 char konsonD = strKonson.charAt(generate.nextInt(strKonson.length()));
                 strGede += konsonD;
                 result = strGede.toUpperCase();
-                System.out.print(red+result+" ");
-//              System.out.print(i);
+                System.out.print(red+result+ " ");
+
             }
             //Panjang karakter berpola max 7
             else if (i < 7) {
@@ -64,8 +64,6 @@ public class Praktikum3 {
                 generate.nextInt(97, 123);
                 System.out.print(cyan + konsonB + " ");
             }
-
-//            System.out.print(i);
         }
     }
 }
