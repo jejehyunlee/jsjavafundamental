@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Praktikum5 {
 
         /*
-        Soal Nomor 1 Praktikum 5 Java Fundamental
+        Soal Nomor 2 Praktikum 5 Java Fundamental
         */
 
     public static void main(String[] args) {
